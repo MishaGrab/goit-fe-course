@@ -1,0 +1,55 @@
+
+
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('./fonts/PlayfairDisplay-Regular.eot');
+    src: url('./fonts/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'), url('PlayfairDisplay-Regular.woff2') format('woff2'), url('PlayfairDisplay-Regular.woff') format('woff'), url('PlayfairDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {   
+    text-align: center; 
+}
+a {
+    text-decoration: none;
+    font-family: 'Playfair Display';
+}
+li {
+    display: inline-block;
+    padding: 60px;
+    transition: background-color .2s;
+    font-family: 'Playfair Display';
+}
+.ul1 a:hover {
+    color: rgb(84, 84, 230);
+}
+main {
+    display: inline-block;
+    width: 970px;  
+}
+.blok1 {
+    display: inline-block;
+    width: 960px; 
+}
+.blok1_1 {
+    display: inline-block;
+    width: 470px;
+    text-align: left;   
+    font-family: 'Playfair Display'; 
+}
+.p1 {
+    display: inline-block;
+    margin-right: 50px;
+    font-family: 'Playfair Display';
+}
+footer {
+    padding: 50px 0 50px 0;
+}
+button {
+    padding: 15px;
+    margin: 0 36px 0 0;
+    font-family: 'Playfair Display';
+}
