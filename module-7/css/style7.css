@@ -232,13 +232,114 @@ color: #777777;
     margin-top: 74px;
     margin-right: 53px;
 
-    /* border: #1C1C1C 1px solid; */
+   
 
 }
 
-.services_img {
-    padding-bottom: 20px;
+.img_before {
+    margin-left: 120px;
+    margin-bottom: 46px;
+    
 }
+
+.img_before::before {
+    content: '';
+   
+    background: url('../img/1.png') center no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    max-width: 50px;
+    text-align: center;
+   
+    display: block;
+ 
+}
+
+.img_before::after {
+    content: '';
+    position: absolute;
+    transform: translateX(-22%) translateY(-78%);
+    display: block;
+    width: 100%;
+    max-width: 80px;
+    height: 80px;
+    border: #fed136 3px solid;
+    border-radius: 50%;
+    
+}
+
+
+.img_before1 {
+    margin-left: 120px;
+    margin-bottom: 46px;
+    
+}
+
+.img_before1::before {
+    content: '';
+   
+    background: url('../img/2.png') center no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    max-width: 50px;
+    text-align: center;
+   
+    display: block;
+ 
+}
+
+.img_before1::after {
+    content: '';
+    position: absolute;
+    transform: translateX(-22%) translateY(-78%);
+    display: block;
+    width: 100%;
+    max-width: 80px;
+    height: 80px;
+    border: #fed136 3px solid;
+    border-radius: 50%;
+    
+}
+
+
+
+.img_before2 {
+    margin-left: 120px;
+    margin-bottom: 46px;
+    
+}
+
+.img_before2::before {
+    content: '';
+   
+    background: url('../img/3.png') center no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    max-width: 50px;
+    text-align: center;
+    
+    display: block;
+ 
+}
+
+.img_before2::after {
+    content: '';
+    position: absolute;
+    transform: translateX(-22%) translateY(-78%);
+    display: block;
+    width: 100%;
+    max-width: 80px;
+    height: 80px;
+    border: #fed136 3px solid;
+    border-radius: 50%;
+    
+}
+
+
+
 
 .services_h {
     font-family: 'Montserrat-bold';
@@ -332,5 +433,3 @@ input:required:not(:focus):not(:placeholder-shown):invalid {
 input:required:valid:not(:focus) {
     outline: solid 2px  green;
 }
-
- 
