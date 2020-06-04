@@ -392,6 +392,10 @@ color: #777777;
     width: 455px;
 }
 
+form {
+    display: flex;
+}
+
 input[type="text"], input[type="email"] {
     font-family: 'Montserrat-bold';
     width: 455px;
@@ -407,10 +411,31 @@ input[type="text"], input[type="email"] {
 form .contact_massag {
     width: 455px;
     height: 212px;
-    margin-left: 30px;
     font-size: 14px;
     cursor: pointer;
+    border-radius: 8px;
     background-color: #ffffff;
+}
+
+
+
+textarea {
+    width: 455px;
+    height: 212px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #ffffff;
+    font-size: 14px;
+    font-family: 'Montserrat-bold';
+    
+    
+    margin-left: 20px;
+}
+
+textarea[placeholder="YOUR MESSAGE*"] {
+    padding-left: 28px;
+    padding-top: 16px;
 }
 
 input[type="submit"] {
@@ -431,5 +456,15 @@ input:required:not(:focus):not(:placeholder-shown):invalid {
 }
 
 input:required:valid:not(:focus) {
+    outline: solid 2px  green;
+}
+
+
+
+textarea:required:not(:focus):not(:placeholder-shown):invalid {
+    outline:  2px solid red; 
+}
+
+textarea:required:valid:not(:focus) {
     outline: solid 2px  green;
 }
