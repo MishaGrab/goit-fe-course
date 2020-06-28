@@ -468,3 +468,15 @@ textarea:required:not(:focus):not(:placeholder-shown):invalid {
 textarea:required:valid:not(:focus) {
     outline: solid 2px  green;
 }
+
+
+
+/* linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  */
+
+/* margin-top: 20px;
+    background-color: aquamarine;
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    overflow: hidden;
+} */
